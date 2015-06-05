@@ -1,4 +1,4 @@
-%define rubyver         2.1.5
+%define rubyver         2.1.6
 %define rubyabi         2.1
 
 Name:           ruby
@@ -64,6 +64,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_libdir}/*
 
 %changelog
+* Fri Jun  5 2015 KwangSeob Jeong <lesstif@gmail.com> - 2.1.6
+- Update ruby version to 2.1.6
+
 * Tue Apr 14 2015 Johnson Earls <johnson.earls@oracle.com> - 2.1.5-2
 - Fix Obsoletes header lines to allow for ruby package updates
 
